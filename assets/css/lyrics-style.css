@@ -1,0 +1,16 @@
+/*
+	****COLORS****
+	Primary Pink: #8D3B66
+	Secondary Pink: #510B30
+
+	****FONTS****
+	font-family: 'Open Sans', sans-serif;
+*/
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	background: #F7F7FF;
+	color: #333333;
+}
