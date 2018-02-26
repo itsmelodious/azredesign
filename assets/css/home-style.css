@@ -1,0 +1,54 @@
+/*
+	***COLORS***
+	Primary Pink: #8D3B66
+	Secondary Pink: #510B30
+	Off-White: #F7F7FF
+
+	***FONTS***
+	font-family: 'Open Sans', sans-serif;
+*/
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+#home-search{
+	margin: 0 auto;
+    width: 240px;
+    height: 24px;
+}
+
+#AZLyrics{
+	text-align: center;
+	margin: 12px auto;
+
+}
+
+#popular{
+	text-align: center;
+	margin: 36px auto;
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:48px; 
+}
+
+.advertise-link{
+	display: inline-block;
+	position: absolute;
+	left: 25%;
+}
+
+.privacy-link{
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+}
+
+.contact-link{
+	display: inline-block;
+	position: absolute;
+	left:75%;
+}
