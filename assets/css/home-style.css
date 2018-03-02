@@ -52,3 +52,22 @@ footer {
 	position: absolute;
 	left:75%;
 }
+
+#home-albums{
+	display: grid;
+	grid-template-columns:repeat(3, 150px);
+	grid-template-rows:repeat(2, 150px);
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.home-album-item{
+	max-height: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+
+
+
+
