@@ -11,13 +11,11 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
-	background: #F7F7FF;
 	color: #333333;
 }
 
 .navbar {
 	position: relative;
-	background: lightgrey;
 	width: 100%;
 	height: 60px;
 }
@@ -27,13 +25,14 @@ body {
 	margin: 6px 12px;
 }
 
-.logo {
+#logo {
 	background: white;
 	margin: 6px 12px;
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 	text-align: center;
-	font-size: 24px;
+	font-size: 30px;
+	color: #8D3B66;
 }
 
 .search {
@@ -42,17 +41,19 @@ body {
 
 .bar {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+	font-size: 24px;
 	line-height: normal;
 	padding: 6px;
 	display: inline-block;
-	height: 18px;
+	height: 36px;
+	border-radius: 6px;
+	border: 1px solid #8D3B66;
 }
 
 .search-button {
 	right: 0px;
-	height: 18px;
-	width: 18px;
+	height: 36px;
+	width: 36px;
 	display: inline-block;
 }
 
@@ -63,24 +64,25 @@ body {
 }
 
 .button {
-	border: 1px solid #8D3B66;
+	border: 1px solid black;
 	padding: 6px;
-	background: white;
+	background: #8D3B66;
+	border-radius: 6px;
+	color: white;
 }
 
 .left-align {
 	text-align: left;
-	margin: auto;
-	margin-top: 48px;
-	width: 50%;
 	padding: 12px;
 }
 
 .lyrics {
-	border: 1px solid black;
+	border: 1px solid #8D3B66;
+	border-radius: 6px;
 	background: white;
 	width: 100%;
-	padding: 12px;
+	padding-left: 36px;
+	padding-right: 36px;
 	margin: 24px 0px;
 	font-size: 18px;
 }
@@ -88,4 +90,49 @@ body {
 #corrections {
 	font-size: 12px;
 	width: 108px;
+	padding: 6px;
 }
+
+footer {
+   position: relative;
+   bottom: 0px;
+   width: 100%;
+   height: 48px; 
+   background: lightgrey;
+   margin-top: 60px;
+}
+
+.link-bar {
+	position: absolute;
+	bottom: 0px;
+}
+
+.link {
+	display: inline-block;
+	padding: 6px;
+	margin: 6px 48px;
+}
+
+.center {
+	margin: auto;
+	margin-top: 48px;
+	width: 50%;
+}
+
+/*.advertise-link{
+	display: inline-block;
+	position: absolute;
+	left: 25%;
+}
+
+.privacy-link{
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+}
+
+.contact-link{
+	display: inline-block;
+	position: absolute;
+	left:75%;
+}*/
