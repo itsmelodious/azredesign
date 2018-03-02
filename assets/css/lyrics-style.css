@@ -14,6 +14,7 @@ body {
 	color: #333333;
 }
 
+/* navbar */
 .navbar {
 	position: relative;
 	width: 100%;
@@ -71,9 +72,15 @@ body {
 	color: white;
 }
 
+/* content */
 .left-align {
 	text-align: left;
 	padding: 12px;
+}
+
+.center {
+	display: grid;
+	justify-content: space-around;
 }
 
 .lyrics {
