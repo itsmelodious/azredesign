@@ -13,58 +13,117 @@ body{
 }
 #home-search{
 	margin: 0 auto;
-    width: 240px;
+    width: 360px;
     height: 24px;
 }
 
 #AZLyrics{
+	font-size: 30px;
 	text-align: center;
-	margin: 12px auto;
+	margin: 36px auto;
+	margin-top: 60px
+
 
 }
+
 
 #popular{
 	text-align: center;
 	margin: 36px auto;
+	display: grid;
+	justify-items:center;
+	margin-top: 84px
 }
 
-footer {
-   position:absolute;
+#label{
+	font-size: 18px;
+}
+
+.link-bar{
+	/**
+   position:fixed;
    bottom:0;
    width:100%;
    height:48px; 
+   **/
+   display:flex;
+   flex-direction:row;
+   justify-content:center;
+
 }
 
-.advertise-link{
-	display: inline-block;
-	position: absolute;
-	left: 25%;
+.footer-link{
+	margin: 36px;
+	margin-bottom: 0px
 }
 
-.privacy-link{
-	display: inline-block;
-	position: absolute;
-	left: 50%;
-}
-
-.contact-link{
-	display: inline-block;
-	position: absolute;
-	left:75%;
-}
 
 #home-albums{
+	/**
 	display: grid;
-	grid-template-columns:repeat(3, 150px);
-	grid-template-rows:repeat(2, 150px);
-	justify-content: space-around;
-	align-content: space-around;
+	grid-template-columns: 33.33333333% 33.33333333% 33.33333333%;
+	padding-top: 18px;
+	margin: 0px 120px 0px 120px;
+	**/
+	margin-top: 24px;
+	display: grid;
+	grid-column-gap: 36px;
+	grid-row-gap: 36px;
+	grid-template-areas:
+	"a b c"
+	"d e f";
+
 }
 
+#item1{
+	grid-area:a;
+	opacity: 0.9;
+}
+#item2{
+	grid-area:b;	
+}
+
+#item3{
+	grid-area:c;
+}
+
+#item4{
+	grid-area:d;
+}
+
+#item5{
+	grid-area:e;
+}
+
+#item6{
+	grid-area:f;
+	opacity: 0.9;
+}
+
+
+.home-album-item:hover{
+	opacity: 0.5;
+}
+
+#item6:hover{
+	opacity: 0.5;
+}
+
+#item1:hover{
+	opacity: 0.5;
+}
+
+
+
 .home-album-item{
-	max-height: 100%;
-	max-width: 100%;
-	overflow: hidden;
+	width: 180px;
+	height: 180px;
+}
+
+.album-pic{
+	width: 180px;
+	height: 180px;
+	border-radius: 3%;
 }
 
 
