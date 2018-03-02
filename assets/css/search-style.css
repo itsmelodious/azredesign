@@ -1,0 +1,115 @@
+/*
+	****COLORS****
+	Primary Pink: #8D3B66
+	Secondary Pink: #510B30
+
+	****FONTS****
+	font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	background: #F7F7FF;
+	color: #333333;
+}
+
+/* top */
+.navbar {
+	position: relative;
+	background: lightgrey;
+	width: 100%;
+	height: 60px;
+}
+
+.navbar-item {
+	position: absolute;
+	margin: 6px 12px;
+}
+
+.logo {
+	background: white;
+	margin: 6px 12px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.search {
+	right: 0px;
+}
+
+.bar {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	padding: 6px;
+	display: inline-block;
+	height: 18px;
+}
+
+.search-button {
+	right: 0px;
+	height: 18px;
+	width: 18px;
+	display: inline-block;
+}
+
+#icon {
+	width: 100%;
+	height: auto;
+}
+
+.button {
+	border: 1px solid #8D3B66;
+	padding: 6px;
+	background: white;
+}
+
+/* actual page */
+.big-box {
+	margin: 0% 25% 0% 25%;
+}
+.box {
+	border: 1px solid black;
+	background: white;
+	width: 100%;
+	padding: 12px;
+	font-size: 18px;
+}
+
+.song-lyrics {
+	font-size: 12px;
+}
+
+/* bottom */
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:48px; 
+}
+
+.link-bar {
+	display: grid;
+	grid-template-columns: 33.33333333% 33.33333333% 33.33333333%;
+}
+
+.advertise-link{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.privacy-link{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contact-link{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
