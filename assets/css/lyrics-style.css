@@ -72,10 +72,19 @@ body {
 	color: white;
 }
 
+
 /* content */
+h1 {
+	margin: 12px 0px;
+}
+
+h2 {
+	margin: 6px 0px;
+}
+
 .left-align {
 	text-align: left;
-	padding: 12px;
+	margin-top: 60px;
 }
 
 .center {
@@ -90,7 +99,7 @@ body {
 	width: 100%;
 	padding-left: 36px;
 	padding-right: 36px;
-	margin: 24px 0px;
+	margin: 24px 0px 48px;
 	font-size: 18px;
 }
 
@@ -99,6 +108,7 @@ body {
 	width: 108px;
 	padding: 6px;
 }
+
 
 /* bottom */
 footer {
