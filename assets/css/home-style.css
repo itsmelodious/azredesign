@@ -111,10 +111,12 @@ body{
 
 
 .name{
+	color: #000000;
+	font-weight: bold;
 	display: none;
 	position: absolute;
-	justify-content:center;
-	z-index: 10;
+	z-index: -1;
+	text-align: center;
 }
 
 
@@ -122,8 +124,11 @@ body{
 
 
 #album-pic:hover{
+	transition: 0.24s;
 	opacity: 0.5;
+
 }
+
 
 .album-pic1:hover + #name1{
 	display: block;
@@ -155,36 +160,8 @@ body{
 
 
 
-
-/*
-.item2:hover + #name2{
-	display: block;
-
-}
-
-.item3:hover + #name3{
-	display: block;
-
-}
-
-.item4:hover + #name4{
-	display: block;
-
-}
-
-.item5:hover + #name5{
-	display: block;
-
-}
-
-.item6:hover + #name6{
-	display: block;
-
-}
-
-*/
 .home-album-item{
-	display:flex;
+	display: grid;
 	width: 180px;
 	height: 180px;
 }
