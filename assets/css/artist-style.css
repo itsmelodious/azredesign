@@ -10,14 +10,11 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
-	background: #F7F7FF;
-	color: #333333;
 }
 
 /* top */
 .navbar {
 	position: relative;
-	background: lightgrey;
 	width: 100%;
 	height: 60px;
 }
@@ -27,13 +24,14 @@ body {
 	margin: 6px 12px;
 }
 
-.logo {
+#logo {
 	background: white;
 	margin: 6px 12px;
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 	text-align: center;
-	font-size: 24px;
+	font-size: 30px;
+	color: #8D3B66;
 }
 
 .search {
@@ -42,29 +40,34 @@ body {
 
 .bar {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+	font-size: 24px;
 	line-height: normal;
 	padding: 6px;
 	display: inline-block;
-	height: 18px;
+	height: 36px;
+	border-radius: 6px;
+	border: 1px solid #8D3B66;
 }
 
 .search-button {
 	right: 0px;
-	height: 18px;
-	width: 18px;
+	height: 36px;
+	width: 36px;
 	display: inline-block;
 }
 
 #icon {
 	width: 100%;
 	height: auto;
+	
 }
 
 .button {
-	border: 1px solid #8D3B66;
+	border: 1px solid black;
 	padding: 6px;
-	background: white;
+	background: #8D3B66;
+	border-radius: 6px;
+	color: white;
 }
 
 /* actual page */
