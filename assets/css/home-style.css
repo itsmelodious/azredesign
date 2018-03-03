@@ -113,7 +113,7 @@ body{
 .name{
 	display: none;
 	position: absolute;
-	justify-content:end;
+	justify-content:center;
 	z-index: 10;
 }
 
@@ -121,15 +121,42 @@ body{
 
 
 
-.album-pic:hover + #name1{
+#album-pic:hover{
 	opacity: 0.5;
 }
 
-.item1:hover + #name1{
+.album-pic1:hover + #name1{
 	display: block;
-
 }
 
+.album-pic2:hover + #name2{
+	display: block;
+}
+
+.album-pic3:hover + #name3{
+	display: block;
+}
+
+.album-pic4:hover + #name4{
+	display: block;
+}
+
+.album-pic4:hover + #name4{
+	display: block;
+}
+
+.album-pic5:hover + #name5{
+	display: block;
+}
+
+.album-pic6:hover + #name6{
+	display: block;
+}
+
+
+
+
+/*
 .item2:hover + #name2{
 	display: block;
 
@@ -155,14 +182,14 @@ body{
 
 }
 
-
+*/
 .home-album-item{
 	display:flex;
 	width: 180px;
 	height: 180px;
 }
 
-.album-pic{
+#album-pic{
 	width: 180px;
 	height: 180px;
 	border-radius: 3%;
