@@ -126,7 +126,7 @@ body{
 #album-pic:hover{
 	transition: 0.24s;
 	opacity: 0.5;
-
+	cursor: pointer;
 }
 
 
