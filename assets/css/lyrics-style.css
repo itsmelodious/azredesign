@@ -26,6 +26,10 @@ body {
 	margin: 6px 12px;
 }
 
+a {
+	text-decoration: none;
+}
+
 #logo {
 	background: white;
 	margin: 6px 12px;
@@ -76,10 +80,16 @@ body {
 /* content */
 h1 {
 	margin: 12px 0px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
 }
 
 h2 {
 	margin: 6px 0px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 .left-align {
