@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Search</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/search-style.css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-		<meta charset="utf-8">
-</head>
-<body>
-	<div class="content">
-		<div class="navbar">
-			<div class="navbar-item button" id="logo">AZ</div>
-			<div class="navbar-item search">
-				<input class="bar" placeholder="Search"></input>
-				<div class="button search-button"><img id="icon" src="assets/img/search.png"/></div>
-			</div>
-		</div>
-		<div class="big-box">
-			<div class="title-text"><h3>Artists</h3></div>
-			<div class="box">
-				<div class="artist-item">
-					Artist Link
-				</div>
-				<div class="artist-item">
-					Artist Link
-				</div>
-			</div>
-		</div>
-		<div class="big-box">
-			<div class="title-text"><h3>Songs</h3></div>
-			<div class="box">
-				<div class="song-item">
-					<div class="song-name">
-						Song Name Link
-					</div>
-					<div class="song-lyrics">
-						<i>Lyrics lyrics lyrics lyrics lyrics lyrics lyrics lyrics lyrics lyrics.</i>
-					</div>
-				</div>
-				<div class="song-item">
-					<div class="song-name">
-						Song Name Link
-					</div>
-					<div class="song-lyrics">
-						<i>Lyrics lyrics lyrics lyrics lyrics lyrics lyrics lyrics lyrics lyrics.</i>
+	<head>
+		<title>Search</title>
+			<link rel="stylesheet" type="text/css" href="assets/css/search-style.css">
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+			<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="content">
+			<div class="navbar">
+				<div class="navbar-item" id="logo"><a href="index.html">AZ</a></div>
+				<div class="navbar-item search">
+					<input class="bar" placeholder="Search"></input>
+					<div class="button search-button">
+						<a href="search.html">
+							<img class="icon" src="assets/img/search.png"/>
+							<div id="color"><img class="icon" src="assets/img/search_transition.png"/></div>
+						</a>
 					</div>
 				</div>
 			</div>
+			<div class="big-box">
+				<div class="title-text"><h3>Artists</h3></div>
+				<div class="box">
+					<div class="artist-item">
+						Artist Link
+					</div>
+					<div class="artist-item">
+						Artist Link
+					</div>
+				</div>
+			</div>
+			<div class="big-box">
+				<div class="title-text"><h3>Songs</h3></div>
+				<div class="box">
+					<div class="song-item">
+						<div class="song-name">
+							Song Name Link
+						</div>
+						<div class="song-lyrics">
+							<i>Lyrics lyrics lyrics lyrics lyrics lyrics lyrics lyrics lyrics lyrics.</i>
+						</div>
+					</div>
+					<div class="song-item">
+						<div class="song-name">
+							Song Name Link
+						</div>
+						<div class="song-lyrics">
+							<i>Lyrics lyrics lyrics lyrics lyrics lyrics lyrics lyrics lyrics lyrics.</i>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-</body>
-<footer>
-	<div class="link-bar">
-		<div class="link-item">Advertise</div>
-		<div class="link-item">Privacy</div>
-		<div class="link-item">Contact Us</div>
-	</div>
-	<div class="copyright"></div>
-</footer>
+	</body>
+	<footer>
+		<div class="link-bar">
+			<div class="link" id="advertise">Advertise Here</div>
+			<div class="link" id="privacy">Privacy</div>
+			<div class="link" id="contact">Contact Us</div>
+		</div>
+	</footer>
 </html>

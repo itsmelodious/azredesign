@@ -10,28 +10,53 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
+	color: #333333;
 }
 
-/* top */
+/* navbar */
 .navbar {
 	position: relative;
 	width: 100%;
 	height: 60px;
+	display: flex;
+	align-items: center;
 }
 
 .navbar-item {
 	position: absolute;
 	margin: 6px 12px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	color: #8D3B66;
+	transition: 0.2s;
 }
 
 #logo {
+	display: flex;
 	background: white;
 	margin: 6px 12px;
-	height: 40px;
-	width: 40px;
-	text-align: center;
-	font-size: 30px;
-	color: #8D3B66;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	padding: 6px;
+	border: 1px solid #8D3B66;
+	border-radius: 6px;
+	transition: 0.2s;
+}
+
+#logo:hover {
+	cursor: pointer;
+	background: #8D3B66;
+}
+
+#logo:hover a {
+	color: white;
 }
 
 .search {
@@ -40,34 +65,54 @@ body {
 
 .bar {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	line-height: normal;
 	padding: 6px;
+	margin-right: 6px;
 	display: inline-block;
-	height: 36px;
-	border-radius: 6px;
+	height: 24px;
 	border: 1px solid #8D3B66;
+	border-radius: 6px;
 }
 
 .search-button {
+	position: relative;
 	right: 0px;
-	height: 36px;
-	width: 36px;
+	height: 24px;
+	width: 24px;
 	display: inline-block;
+	border: 1px solid #8D3B66;
+	border-radius: 6px;
 }
 
-#icon {
-	width: 100%;
-	height: auto;
-	
+.icon {
+	position: absolute;
+	height: 24px;
+	width: 24px;
+}
+
+div#color {
+	display: none;
+}
+
+div.search-button:hover div#color {
+	display: inline;
 }
 
 .button {
-	border: 1px solid black;
+	border: 1px solid #8D3B66;
 	padding: 6px;
 	background: #8D3B66;
 	border-radius: 6px;
 	color: white;
+	transition: 0.2s;
+}
+
+.button:hover {
+	position: relative;
+	cursor: pointer;
+	background: white;
+	color: #8D3B66;
 }
 
 /* actual page */
@@ -90,20 +135,29 @@ body {
 
 /* bottom */
 footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:48px; 
+   width: 100%;
+   height: 60px; 
+   margin-top: 72px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
 }
 
 .link-bar {
-	display: grid;
-	grid-template-columns: 33.33333333% 33.33333333% 33.33333333%;
-	margin: 0px 300px 0px 300px;
+	padding: 18px;
+	display: flex;
+	justify-content: center;
 }
 
-.link-item {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.link {
+	margin: 0px 48px;
+	padding: 12px;
+	border: 1px solid white;
+	transition: 0.2s;
+}
+
+.link:hover {
+	cursor: pointer;
+	border: 1px solid #8D3B66;
+	border-radius: 6px;
 }

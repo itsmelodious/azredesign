@@ -9,10 +9,15 @@
 	<body>
 		<div class="content">
 			<div class="navbar">
-				<div class="navbar-item button" id="logo">AZ</div>
+				<div class="navbar-item" id="logo"><a href="index.html">AZ</a></div>
 				<div class="navbar-item search">
 					<input class="bar" placeholder="Search"></input>
-					<div class="button search-button"><img id="icon" src="assets/img/search.png"/></div>
+					<div class="button search-button">
+						<a href="search.html">
+							<img class="icon" src="assets/img/search.png"/>
+							<div id="color"><img class="icon" src="assets/img/search_transition.png"/></div>
+						</a>
+					</div>
 				</div>
 			</div>
 			<div id="name">A R T I S T</div>
@@ -55,10 +60,9 @@
 	</body>
 	<footer>
 		<div class="link-bar">
-			<div class="link-item">Advertise</div>
-			<div class="link-item">Privacy</div>
-			<div class="link-item">Contact Us</div>
+			<div class="link" id="advertise">Advertise Here</div>
+			<div class="link" id="privacy">Privacy</div>
+			<div class="link" id="contact">Contact Us</div>
 		</div>
-		<div class="copyright"></div>
 	</footer>
 </html>
