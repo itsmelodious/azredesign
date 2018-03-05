@@ -49,7 +49,7 @@ body{
 	margin: 36px auto;
 	display: grid;
 	justify-items:center;
-	margin-top: 84px
+	margin-top: 84px;
 }
 
 footer {
@@ -104,12 +104,13 @@ footer {
 #item1{
 	grid-area:a;
 	opacity: 0.9;
-	position: relative;
+	
 }
 
 
 #item2{
-	grid-area:b;	
+	grid-area:b;
+
 }
 
 #item3{
@@ -181,9 +182,12 @@ footer {
 
 
 .home-album-item{
+	position: relative;
 	display: grid;
 	width: 180px;
 	height: 180px;
+	justify-items: center;
+	align-items:center;
 }
 
 #album-pic{
