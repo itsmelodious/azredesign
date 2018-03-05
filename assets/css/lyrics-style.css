@@ -125,8 +125,7 @@ h2 {
 #corrections {
 	display: flex;
 	font-size: 12px;
-/*	width: 108px;
-*/	padding: 6px;
+	padding: 6px;
 	margin: 24px 45%;
 	justify-content: center;
 }
