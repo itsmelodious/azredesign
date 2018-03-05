@@ -11,10 +11,17 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
-#home-search{
+
+.home-search{
 	margin: 0 auto;
     width: 360px;
     height: 24px;
+}
+
+#search-bar {
+	padding: 6px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
 }
 
 #AZLyrics{
