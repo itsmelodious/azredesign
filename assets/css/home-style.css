@@ -24,7 +24,8 @@ body{
 	font-weight: bold;
 	text-align: center;
 	margin: 36px auto;
-	margin-top: 60px
+	margin-top: 60px;
+	letter-spacing: 12px;
 }
 
 #AZLyrics:5-child(){
