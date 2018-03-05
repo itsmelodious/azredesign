@@ -34,6 +34,8 @@ body {
 
 a {
 	text-decoration: none;
+	color: #8D3B66;
+	transition: 0.2s;
 }
 
 #logo {
@@ -46,11 +48,6 @@ a {
 	padding: 6px;
 	border: 1px solid #8D3B66;
 	border-radius: 6px;
-	transition: 0.2s;
-}
-
-#logo a {
-	color: #8D3B66;
 	transition: 0.2s;
 }
 
@@ -136,6 +133,11 @@ h2 {
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
+}
+
+#artist-name:hover {
+	/*letter-spacing: 5px;*/
+	text-decoration: underline;
 }
 
 .left-align {
