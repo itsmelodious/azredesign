@@ -133,6 +133,15 @@ div.search-button:hover div#color {
 	margin-bottom: 6px;
 }
 
+a, a:visited {
+	text-decoration: none;
+	color: #8D3B66;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 /* bottom */
 footer {
    position:absolute;

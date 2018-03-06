@@ -109,14 +109,14 @@ div.search-button:hover div#color {
 }
 
 /* actual page */
-/*h1 {
+h1 {
 	margin: 12px 0px;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 48px;
 	font-weight: bold;
 	letter-spacing: 2px;
 	text-align: center;
-}*/
+}
 
 #name {
 	font-size: 36px;
