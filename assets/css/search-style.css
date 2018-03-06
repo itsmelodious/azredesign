@@ -116,6 +116,15 @@ div.search-button:hover div#color {
 }
 
 /* actual page */
+h2 {
+	margin: 12px 0px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-top: 48px;
+}
+
 .big-box {
 	margin: 0% 25% 0% 25%;
 }
@@ -127,6 +136,7 @@ div.search-button:hover div#color {
 	width: 100%;
 	padding: 12px;
 	font-size: 18px;
+	margin-bottom: 48px;
 }
 
 .artist-item {
