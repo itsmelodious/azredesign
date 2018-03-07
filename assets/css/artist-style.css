@@ -159,6 +159,11 @@ h1 {
 	color: #8D3B66;
 }
 
+.album-title:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
 .art {
 	border-radius: 6px;
 }
