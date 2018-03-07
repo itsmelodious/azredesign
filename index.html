@@ -1,38 +1,88 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="assets/css/home-style.css" />
-	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+		<title>Artists</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/artist-style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+		<meta charset="utf-8">
 	</head>
-
 	<body>
 		<div class="content">
-			<div id="AZLyrics"><span style = 'color: #8D3B66'>AZ </span>LYRICS</div>
-			<div class="home-search" id="home-search">
-				<div class="button search-button"></div>
-				<a href = "search.html"><input class="home-search bar" id="search-bar" placeholder="Search"></input></a>
+			<div class="navbar">
+				<div class="navbar-item" id="logo"><a href="index.html">AZ</a></div>
+				<div class="navbar-item search">
+					<input class="bar" placeholder="Search"></input>
+					<div class="button search-button">
+						<a href="search.html">
+							<img class="icon" src="assets/img/search.png"/>
+							<div id="color"><img class="icon" src="assets/img/search_transition.png"/></div>
+						</a>
+					</div>
+				</div>
 			</div>
-			<div id="popular">
-				<div id="label">Popular</div>
-				<div id="home-albums">
-					<a href = "lyrics.html"><div id="item1" class ="home-album-item"><img id="album-pic" class = "album-pic1"src="assets/img/homealbum1.png"><div id = "name1" class = "name">Martin Garrix -<br> So Far Away</div></div></a>
-					<a href = "lyrics.html"><div id="item2" class ="home-album-item"><img id="album-pic" class = "album-pic2"src="assets/img/homealbum2.png"><div id = "name2" class = "name">Kygo -<br> Cloud Nine</div></div></a>
-					<a href = "lyrics.html"><div id="item3" class ="home-album-item"><img id="album-pic" class = "album-pic3"src="assets/img/homealbum3.png"><div id = "name3" class = "name">Handsome Ghost -<br> Eyes Wide</div></div></a>
-					<a href = "lyrics.html"><div id="item4" class ="home-album-item"><img id="album-pic" class = "album-pic4"src="assets/img/homealbum4.png"><div id = "name4" class = "name">Lauv -<br> The Other</div></div></a>
-					<a href = "lyrics.html"><div id="item5" class ="home-album-item"><img id="album-pic" class = "album-pic5" src="assets/img/homealbum6.png"><div id = "name5" class = "name">Tall Heights -<br> Holding On</div></div></a>
-					<a href = "lyrics.html"><div id="item6" class ="home-album-item"><img id="album-pic" class = "album-pic6"src="assets/img/homealbum5.png"><div id = "name6" class = "name">Adele -<br> 25</div></div></a>
+			<div id="name"><h1>Adele</h1></div>
+			<div id="albums-list">
+				<div class="alb">
+					<div class="album-art"><img class="art" src="assets/img/21adele.jpg"/></div>
+					<div class="album-title"><h3>21</h3></div>
+					<div class="songs">
+						<div class="song-link"><a href="lyrics.html">Rolling in the Deep</a></div>
+						<div class="song-link"><a href="lyrics.html">Rumour Has It</a></div>
+						<div class="song-link"><a href="lyrics.html">Turning Tables</a></div>
+						<div class="song-link"><a href="lyrics.html">Don't You Remember</a></div>
+						<div class="song-link"><a href="lyrics.html">Set Fire to the Rain</a></div>
+						<div class="song-link"><a href="lyrics.html">He Won't Go</a></div>
+						<div class="song-link"><a href="lyrics.html">Take It All</a></div>
+						<div class="song-link"><a href="lyrics.html">I'll Be Waiting</a></div>
+						<div class="song-link"><a href="lyrics.html">One and Only</a></div>
+						<div class="song-link"><a href="lyrics.html">Lovesong</a></div>
+						<div class="song-link"><a href="lyrics.html">Someone Like You</a></div>
+					</div>
+				</div>
+				<div class="alb">
+					<div class="album-art"><img class="art" src="assets/img/homealbum5.png"/></div>
+					<div class="album-title"><h3>25</h3></div>
+					<div class="songs">
+						<div class="song-link"><a href="lyrics.html">Hello</a></div>
+						<div class="song-link"><a href="lyrics.html">Send My Love (To Your New Lover)</a></div>
+						<div class="song-link"><a href="lyrics.html">I Miss You</a></div>
+						<div class="song-link"><a href="lyrics.html">When We Were Young</a></div>
+						<div class="song-link"><a href="lyrics.html">Remedy</a></div>
+						<div class="song-link"><a href="lyrics.html">Water Under the Bridge</a></div>
+						<div class="song-link"><a href="lyrics.html">River Lea</a></div>
+						<div class="song-link"><a href="lyrics.html">Love in the Dark</a></div>
+						<div class="song-link"><a href="lyrics.html">Million Years Ago</a></div>
+						<div class="song-link"><a href="lyrics.html">All I Ask</a></div>
+						<div class="song-link"><a href="lyrics.html">Sweetest Devotion</a></div>
+					</div>
+				</div>
+				<div class="alb">
+					<div class="album-art"><img class="art" src="assets/img/19adele.jpg"/></div>
+					<div class="album-title"><h3>19</h3></div>
+					<div class="songs">
+						<div class="song-link"><a href="lyrics.html">Daydreamer</a></div>
+						<div class="song-link"><a href="lyrics.html">Best for Last</a></div>
+						<div class="song-link"><a href="lyrics.html">Chasing Pavements</a></div>
+						<div class="song-link"><a href="lyrics.html">Cold Shoulder</a></div>
+						<div class="song-link"><a href="lyrics.html">Crazy for You</a></div>
+						<div class="song-link"><a href="lyrics.html">Melt My Heart to Stone</a></div>
+						<div class="song-link"><a href="lyrics.html">First Love</a></div>
+						<div class="song-link"><a href="lyrics.html">Right as Rain</a></div>
+						<div class="song-link"><a href="lyrics.html">Make You Feel My Love</a></div>
+						<div class="song-link"><a href="lyrics.html">My Same</a></div>
+						<div class="song-link"><a href="lyrics.html">Tired</a></div>
+						<div class="song-link"><a href="lyrics.html">Hometown Glory</a></div>
+					</div>
 				</div>
 			</div>
 		</div>
 		<footer>
 			<div class="link-bar">
-				<div id="advertise-link" class="footer-link">Advertise</div>
-				<div id="privacy-link" class="footer-link">Privacy</div>
-				<div id="contact-link" class="footer-link">Contact Us</div>
+				<div class="link" id="advertise">Advertise Here</div>
+				<div class="link" id="privacy">Privacy</div>
+				<div class="link" id="contact">Contact Us</div>
 			</div>
-			<div class="copyright"></div>
 		</footer>
 	</body>
 </html>
