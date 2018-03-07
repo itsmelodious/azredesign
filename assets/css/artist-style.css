@@ -33,7 +33,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #8D3B66;
+	color: black;
 	transition: 0.2s;
 }
 
@@ -156,6 +156,7 @@ h1 {
 
 .album-title {
 	padding-bottom: 12px;
+	color: #8D3B66;
 }
 
 .art {
